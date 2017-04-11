@@ -2,6 +2,15 @@
 
 
 
+string Maladie::getNom()
+{
+}
+
+string Maladie::getDescription()
+{
+	return string();
+}
+
 Maladie::Maladie()
 {
 }

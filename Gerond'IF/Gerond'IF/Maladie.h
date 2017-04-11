@@ -7,7 +7,8 @@ class Maladie
 {
 public:
 	//Méthodes
-	getNom();
+	string getNom();
+	string getDescription();
 
 	//Constructeurs et Destructeur
 
