@@ -1,8 +1,41 @@
 #pragma once
+#include <string>
+
+using namespace std;
+
 class Utilisateur
 {
 public:
-	Utilisateur();
+
+	//Constructeur
+	Utilisateur(string nom, string prenom, string email, string mdp);
+
+	// geteurs et seteurs
+	string getNom();
+
+	string getPrenom();
+
+	string getMail();
+
+	string getMdp();
+
+	void setNom(string n);
+
+	void setPrenom(string p);
+
+	void setMail(string m);
+
+	void setMdp(string mdp);
+
 	~Utilisateur();
+
+private :
+
+	string nom;
+	string prenom;
+	string mail;
+	string mdp;
+	int statut;
+
 };
 
