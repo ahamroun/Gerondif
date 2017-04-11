@@ -145,20 +145,28 @@
     <Text Include="..\..\Gerond%27IF\Gerond%27IF\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Dictionnaire.h" />
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Gestionnaire.h" />
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePrive.h" />
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePublic.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Medecin.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Patient.h" />
-    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Serveur.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\targetver.h" />
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Utilisateur.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Dictionnaire.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gerond%27IF.cpp" />
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gestionnaire.cpp" />
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePrive.cpp" />
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePublic.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Medecin.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Patient.cpp" />
-    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Serveur.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.cpp" />
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Utilisateur.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
