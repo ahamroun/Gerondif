@@ -8,25 +8,25 @@ Utilisateur::Utilisateur(string nom, string prenom, string email, string mdp)
 	this->prenom = prenom;
 	this->mail = email;
 	this->mdp = mdp;
-	this->statut = 0; 
+	this->statut = 0;
 }
 
-string Utilisateur::getNom()
+string Utilisateur::getNom() const
 {
 	return nom;
 }
 
-string Utilisateur::getPrenom()
+string Utilisateur::getPrenom() const
 {
 	return prenom;
 }
 
-string Utilisateur::getMail()
+string Utilisateur::getMail() const
 {
 	return mail;
 }
 
-string Utilisateur::getMdp()
+string Utilisateur::getMdp() const
 {
 	return mdp;
 }

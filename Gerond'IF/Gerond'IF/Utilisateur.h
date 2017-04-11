@@ -19,13 +19,13 @@ public:
 
 	string getMdp() const;
 
-	void setNom(string n) const;
+	void setNom(string n);
 
-	void setPrenom(string p) const;
+	void setPrenom(string p);
 
-	void setMail(string m) const;
+	void setMail(string m);
 
-	void setMdp(string mdp) const;
+	void setMdp(string mdp);
 
 	~Utilisateur();
 

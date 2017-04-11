@@ -1,12 +1,13 @@
 #pragma once
 #include "Patient.h"
+#include "Utilisateur.h"
 #include <vector>
-class Medecin
+class Medecin : public Utilisateur
 {
 public:
 
 	//Constructeur
-	Medecin();
+	Medecin(string nom, string prenom, string email, string mdp);
 
 	//Destructeur
 	~Medecin();
