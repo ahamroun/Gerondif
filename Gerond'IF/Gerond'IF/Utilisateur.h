@@ -11,21 +11,21 @@ public:
 	Utilisateur(string nom, string prenom, string email, string mdp);
 
 	// geteurs et seteurs
-	string getNom();
+	string getNom() const;
 
-	string getPrenom();
+	string getPrenom() const;
 
-	string getMail();
+	string getMail() const;
 
-	string getMdp();
+	string getMdp() const;
 
-	void setNom(string n);
+	void setNom(string n) const;
 
-	void setPrenom(string p);
+	void setPrenom(string p) const;
 
-	void setMail(string m);
+	void setMail(string m) const;
 
-	void setMdp(string mdp);
+	void setMdp(string mdp) const;
 
 	~Utilisateur();
 

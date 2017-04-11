@@ -2,7 +2,11 @@
 class Patient
 {
 public:
+
+	//Constructeur
 	Patient();
+
+
 	virtual ~Patient();
 };
 
