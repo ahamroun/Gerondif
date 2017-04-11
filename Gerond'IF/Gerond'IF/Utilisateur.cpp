@@ -2,12 +2,6 @@
 
 
 
-Utilisateur::Utilisateur()
-{
-
-}
-
-
 Utilisateur::Utilisateur(string nom, string prenom, string email, string mdp)
 {
 	this->nom = nom;
