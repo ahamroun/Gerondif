@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{82EF971F-9758-4548-93D6-E6DED3DE654A}</ProjectGuid>
+    <ProjectGuid>{814A6B66-44A1-437D-AF19-E76CEA9A0D13}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>GerondIF</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -142,15 +142,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
+    <Text Include="..\..\Gerond%27IF\Gerond%27IF\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h" />
-    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.h" />
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Medecin.h" />
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Patient.h" />
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Serveur.h" />
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.h" />
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GerondIF.cpp" />
-    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gerond%27IF.cpp" />
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.cpp" />
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Medecin.cpp" />
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Patient.cpp" />
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Serveur.cpp" />
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
