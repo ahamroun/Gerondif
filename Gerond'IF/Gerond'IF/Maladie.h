@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include <vector>
+#include <set>
 using namespace std;
 
 class Maladie
@@ -12,13 +12,14 @@ public:
 
 	//Constructeurs et Destructeur
 
-	Maladie();
+	Maladie(string nom, string description);
 	virtual ~Maladie();
 
 private:
+	static int Id_;
 	int id;
-	string name;
+	string nom;
 	string description;
-	vector<string> genes;
+	set<string> genome;
 };
 

@@ -4,7 +4,7 @@ class GestionnairePrive :
 	public Gestionnaire
 {
 public:
-	GestionnairePrive();
+	GestionnairePrive(string nom, string prenom, string email, string mdp);
 	virtual ~GestionnairePrive();
 };
 

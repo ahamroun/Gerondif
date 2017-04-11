@@ -22,7 +22,7 @@ public:
 	void chargerGenome(ifstream & file);
 
 	//constructeurs et destructeur
-	Patient(string n, string p, string e);
+	Patient(string nom, string prenom, string email);
 	virtual ~Patient();
 
 private:
