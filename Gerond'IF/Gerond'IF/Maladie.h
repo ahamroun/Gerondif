@@ -1,8 +1,23 @@
 #pragma once
+#include <string>
+#include <vector>
+using namespace std;
+
 class Maladie
 {
 public:
+	//Méthodes
+	getNom();
+
+	//Constructeurs et Destructeur
+
 	Maladie();
-	~Maladie();
+	virtual ~Maladie();
+
+private:
+	int id;
+	string name;
+	string description;
+	vector<string> genes;
 };
 
