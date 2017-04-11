@@ -42,7 +42,7 @@ void Patient::setEmail(string e)
 	email = e;
 }
 
-void Patient::chargerGenome(ifstream & in)
+void Patient::chargerGenome(istream & in)
 {
 	string motLu;
 	while (in.peek() != EOF) {

@@ -1,7 +1,7 @@
 #pragma once
 #include <set>
 #include <string>
-#include <fstream>
+#include <iostream>
 
 using namespace std;
 
@@ -19,7 +19,7 @@ public:
 	void setPrenom(string p);
 	void setEmail(string e);
 
-	void chargerGenome(ifstream & file);
+	void chargerGenome(istream & in);
 
 	//constructeurs et destructeur
 	Patient(string nom, string prenom, string email);

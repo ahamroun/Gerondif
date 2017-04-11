@@ -10,8 +10,12 @@ public:
 	string getNom();
 	string getDescription();
 
-	//Constructeurs et Destructeur
+	void setNom(string nom);
+	void setDescription(string description);
 
+	void chargerGenome(string genes);
+
+	//Constructeurs et Destructeur
 	Maladie(string nom, string description);
 	virtual ~Maladie();
 
