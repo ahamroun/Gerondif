@@ -10,7 +10,7 @@ public:
 	Medecin(string nom, string prenom, string email, string mdp);
 
 	//Destructeur
-	~Medecin();
+	virtual ~Medecin();
 
 	//Méthodes
 	bool AjouterPatient(Patient p);

@@ -27,7 +27,7 @@ public:
 
 	void setMdp(string mdp);
 
-	~Utilisateur();
+	virtual ~Utilisateur();
 
 private :
 
