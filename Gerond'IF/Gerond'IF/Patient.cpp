@@ -52,11 +52,11 @@ void Patient::chargerGenome(ifstream & in)
 }
 
 
-Patient::Patient(string n, string p, string e)
+Patient::Patient(string nom, string prenom, string email)
 {
-	nom = n;
-	prenom = p;
-	email = e;
+	this->nom = nom;
+	this->prenom = prenom;
+	this->email = email;
 	id = Id_++;
 }
 

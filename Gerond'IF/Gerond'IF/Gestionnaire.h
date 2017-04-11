@@ -1,10 +1,9 @@
 #pragma once
 #include "Utilisateur.h"
-class Gestionnaire :
-	public Utilisateur
+class Gestionnaire : public Utilisateur
 {
 public:
-	Gestionnaire();
+	Gestionnaire(string nom, string prenom, string email, string mdp);
 	virtual ~Gestionnaire();
 };
 

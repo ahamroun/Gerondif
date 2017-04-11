@@ -4,7 +4,7 @@ class GestionnairePublic :
 	public Gestionnaire
 {
 public:
-	GestionnairePublic();
+	GestionnairePublic(string nom, string prenom, string email, string mdp);
 	virtual ~GestionnairePublic();
 };
 
