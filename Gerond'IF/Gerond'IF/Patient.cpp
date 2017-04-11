@@ -1,6 +1,11 @@
 #include "Patient.h"
 
+int Patient::Id_ = 0;
 
+int Patient::getId() const
+{
+	return id;
+}
 
 string Patient::getNom() const
 {
@@ -37,12 +42,22 @@ void Patient::setEmail(string e)
 	email = e;
 }
 
-void Patient::chargerGenome(ifstream file)
+void Patient::chargerGenome(ifstream & in)
 {
+	string motLu;
+	while (in.peek() != EOF) {
+		getline(in, motLu, ' ');
+		genome.insert(motLu);
+	}
 }
 
-Patient::Patient()
+
+Patient::Patient(string n, string p, string e)
 {
+	nom = n;
+	prenom = p;
+	email = e;
+	id = Id_++;
 }
 
 

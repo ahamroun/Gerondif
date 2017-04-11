@@ -9,6 +9,7 @@ class Patient
 {
 public:
 	//methodes
+	int getId() const;
 	string getNom() const;
 	string getPrenom() const;
 	string getEmail() const;
@@ -18,14 +19,15 @@ public:
 	void setPrenom(string p);
 	void setEmail(string e);
 
-	void chargerGenome(ifstream file);
+	void chargerGenome(ifstream & file);
 
 	//constructeurs et destructeur
-	Patient();
+	Patient(string n, string p, string e);
 	virtual ~Patient();
 
 private:
-	//int id;
+	static int Id_;
+	int id;
 	string nom;
 	string prenom;
 	string email;
