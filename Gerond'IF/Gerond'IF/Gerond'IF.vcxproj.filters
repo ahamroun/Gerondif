@@ -16,6 +16,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\Gerond%27IF\Gerond%27IF\ReadMe.txt" />
+    <Text Include="..\..\Gerond%27IF\Gerond%27IF\Test_Genome.txt">
+      <Filter>Fichiers de ressources</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.h">
