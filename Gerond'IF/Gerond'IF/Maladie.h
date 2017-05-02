@@ -2,6 +2,7 @@
 #pragma once
 #include <string>
 #include <set>
+#include "Constantes.h"
 using namespace std;
 
 class Maladie

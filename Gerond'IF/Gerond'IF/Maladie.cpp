@@ -27,7 +27,7 @@ void Maladie::chargerGenome(string genes)
 {
 	istringstream iss(genes);
 	string gene;
-	while (getline(iss, gene, ' ')) {
+	while (getline(iss, gene, SEP)) {
 		genome.insert(gene);
 	}
 

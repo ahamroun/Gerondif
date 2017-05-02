@@ -151,6 +151,7 @@
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Medecin.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Patient.h" />
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\resource.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\targetver.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Utilisateur.h" />
@@ -164,6 +165,9 @@
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Patient.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Utilisateur.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gerond%27IF.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

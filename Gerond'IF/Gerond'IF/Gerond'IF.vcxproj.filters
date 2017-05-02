@@ -51,10 +51,7 @@
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Gestionnaire.h">
       <Filter>Logique Metier\Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePublic.h">
-      <Filter>Logique Metier\Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePrive.h">
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\resource.h">
       <Filter>Logique Metier\Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
@@ -83,11 +80,10 @@
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gestionnaire.cpp">
       <Filter>Logique Metier\Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePublic.cpp">
-      <Filter>Logique Metier\Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePrive.cpp">
-      <Filter>Logique Metier\Fichiers sources</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gerond%27IF.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
