@@ -1,5 +1,6 @@
 #include "Maladie.h"
 #include <sstream>
+#include <algorithm>
 
 int Maladie::Id_ = 0;
 
@@ -31,6 +32,10 @@ void Maladie::chargerGenome(string genes)
 		genome.insert(gene);
 	}
 
+}
+
+bool Maladie::test(set<string> genome) const {
+	return includes(genome.begin(), genome.end(), this->genome.begin(), this->genome.end());
 }
 
 Maladie::Maladie(string nom, string description)
