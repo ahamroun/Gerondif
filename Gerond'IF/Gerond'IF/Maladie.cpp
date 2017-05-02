@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Maladie.h"
 #include <sstream>
 #include <algorithm>

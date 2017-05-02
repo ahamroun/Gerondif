@@ -54,6 +54,7 @@
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\resource.h">
       <Filter>Logique Metier\Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Constantes.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.cpp">

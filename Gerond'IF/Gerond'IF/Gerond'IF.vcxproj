@@ -30,6 +30,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -83,8 +84,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>Create</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -146,6 +146,7 @@
     <Text Include="..\..\Gerond%27IF\Gerond%27IF\Test_Genome.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Constantes.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Dictionnaire.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Gestionnaire.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.h" />

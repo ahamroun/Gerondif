@@ -17,6 +17,8 @@ public:
 
 	void chargerGenome(string genes);
 
+	bool test(set<string> genome) const;
+
 	//Constructeurs et Destructeur
 	Maladie(string nom, string description);
 	virtual ~Maladie();
