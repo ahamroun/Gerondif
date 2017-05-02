@@ -19,9 +19,6 @@
     <Filter Include="Services Metier">
       <UniqueIdentifier>{5f111146-5b01-4755-b030-45dad1323e51}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Project">
-      <UniqueIdentifier>{246dc863-86c3-458a-b965-3ef79b803558}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\Gerond%27IF\Gerond%27IF\ReadMe.txt" />
@@ -30,6 +27,12 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.h">
+      <Filter>Logique Metier\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\targetver.h">
+      <Filter>Logique Metier\Fichiers d%27en-tête</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Patient.h">
       <Filter>Logique Metier\Fichiers d%27en-tête</Filter>
     </ClInclude>
@@ -54,14 +57,14 @@
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePrive.h">
       <Filter>Logique Metier\Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.h">
-      <Filter>Project</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\targetver.h">
-      <Filter>Project</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.cpp">
+      <Filter>Logique Metier\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gerond%27IF.cpp">
+      <Filter>Logique Metier\Fichiers sources</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Patient.cpp">
       <Filter>Logique Metier\Fichiers sources</Filter>
     </ClCompile>
@@ -85,12 +88,6 @@
     </ClCompile>
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePrive.cpp">
       <Filter>Logique Metier\Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.cpp">
-      <Filter>Project</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gerond%27IF.cpp">
-      <Filter>Project</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
