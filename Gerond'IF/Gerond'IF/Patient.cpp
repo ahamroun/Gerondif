@@ -1,4 +1,5 @@
 #include "Patient.h"
+#include <sstream>
 
 long Patient::Id_ = 0;
 
@@ -34,12 +35,12 @@ void Patient::setEmail(string e) {
     email = e;
 }
 
-void Patient::chargerGenome(istream & in) {
-    string motLu;
-    while(in.peek() != EOF) {
-        getline(in, motLu, ' ');
-        genome.insert(motLu);
-    }
+void Patient::chargerGenome(string genes) {
+	istringstream iss(genes);
+	string gene;
+	while(getline(iss, gene, ' ')) {
+		genome.insert(gene);
+	}
 }
 
 

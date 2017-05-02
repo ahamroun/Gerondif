@@ -19,7 +19,7 @@ public:
 	void setPrenom(string p);
 	void setEmail(string e);
 
-	void chargerGenome(istream & in);
+	void chargerGenome(string genes);
 
 	//constructeurs et destructeur
 	Patient(string nom, string prenom, string email);
