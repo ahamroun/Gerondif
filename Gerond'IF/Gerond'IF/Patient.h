@@ -9,7 +9,7 @@ class Patient
 {
 public:
 	//methodes
-	int getId() const;
+	long getId() const;
 	string getNom() const;
 	string getPrenom() const;
 	string getEmail() const;
@@ -31,6 +31,6 @@ private:
 	string nom;
 	string prenom;
 	string email;
-	set<long> genome;
+	set<string> genome;
 };
 

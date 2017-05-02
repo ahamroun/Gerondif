@@ -13,17 +13,15 @@ public:
 	virtual ~Medecin();
 
 	//Méthodes
-	bool AjouterPatient(Patient p);
+	void AjouterPatient(long id);
 
-	bool SupprimerPatient(Patient p);
+	void SupprimerPatient(long id);
 
-	bool ModifierPatient(Patient p);
-
-	vector<Patient> getPatients() const;
+	vector<long> getPatients() const;
 
 private:
 
-	vector<Patient> patients;
+	vector<long> patients;
 
 };
 

@@ -2,7 +2,7 @@
 
 int Patient::Id_ = 0;
 
-int Patient::getId() const {
+long Patient::getId() const {
     return id;
 }
 
