@@ -11,6 +11,9 @@ public:
 	Utilisateur(string nom, string prenom, string email, string mdp);
 
 	// geteurs et seteurs
+
+	long getId() const;
+
 	string getNom() const;
 
 	string getPrenom() const;
@@ -30,7 +33,7 @@ public:
 	virtual ~Utilisateur();
 
 private :
-
+	static long id;
 	string nom;
 	string prenom;
 	string mail;

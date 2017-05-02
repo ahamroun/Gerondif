@@ -23,7 +23,7 @@ public:
 
 private:
 
-	vector<Patient> patients;
+	vector<long> patients;
 
 };
 

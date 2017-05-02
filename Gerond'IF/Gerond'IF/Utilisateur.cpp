@@ -4,6 +4,7 @@
 
 Utilisateur::Utilisateur(string nom, string prenom, string email, string mdp)
 {
+	this->id = this->id+1;
 	this->nom = nom;
 	this->prenom = prenom;
 	this->mail = email;
@@ -11,6 +12,10 @@ Utilisateur::Utilisateur(string nom, string prenom, string email, string mdp)
 	this->statut = 0;
 }
 
+long Utilisateur::getId() const
+{
+	return id;
+}
 string Utilisateur::getNom() const
 {
 	return nom;
