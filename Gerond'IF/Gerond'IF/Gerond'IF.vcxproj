@@ -148,8 +148,6 @@
   <ItemGroup>
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Dictionnaire.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Gestionnaire.h" />
-    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePrive.h" />
-    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePublic.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Medecin.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Patient.h" />
@@ -161,8 +159,6 @@
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Dictionnaire.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gerond%27IF.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gestionnaire.cpp" />
-    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePrive.cpp" />
-    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePublic.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Medecin.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Patient.cpp" />

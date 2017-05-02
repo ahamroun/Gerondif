@@ -26,11 +26,11 @@ public:
 	virtual ~Patient();
 
 private:
-	static int Id_;
-	int id;
+	static long Id_;
+	long id;
 	string nom;
 	string prenom;
 	string email;
-	set<string> genome;
+	set<long> genome;
 };
 

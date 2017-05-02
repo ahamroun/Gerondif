@@ -25,8 +25,5 @@ private:
 
 	vector<Patient> patients;
 
-
-
-	
 };
 
