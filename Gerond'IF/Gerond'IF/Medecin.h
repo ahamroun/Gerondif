@@ -20,7 +20,7 @@ public:
 	vector<long> getPatients() const;
 
 private:
-
+	 
 	vector<long> patients;
 
 };
