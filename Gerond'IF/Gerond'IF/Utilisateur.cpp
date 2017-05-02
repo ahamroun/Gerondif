@@ -1,10 +1,11 @@
 #include "Utilisateur.h"
 
 
+long Utilisateur::Id_ = 0;
 
 Utilisateur::Utilisateur(string nom, string prenom, string email, string mdp)
 {
-	this->id = this->id+1;
+	this->id = Id_++;
 	this->nom = nom;
 	this->prenom = prenom;
 	this->mail = email;

@@ -33,7 +33,9 @@ public:
 	virtual ~Utilisateur();
 
 private :
-	static long id;
+
+	static long Id_;
+	long id;
 	string nom;
 	string prenom;
 	string mail;

@@ -1,6 +1,6 @@
 #include "Patient.h"
 
-int Patient::Id_ = 0;
+long Patient::Id_ = 0;
 
 long Patient::getId() const {
     return id;
