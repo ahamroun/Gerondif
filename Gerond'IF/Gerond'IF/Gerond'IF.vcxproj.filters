@@ -16,6 +16,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\Gerond%27IF\Gerond%27IF\ReadMe.txt" />
+    <Text Include="..\..\Gerond%27IF\Gerond%27IF\Test_Genome.txt">
+      <Filter>Fichiers de ressources</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.h">
@@ -27,13 +30,19 @@
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Patient.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Dictionnaire.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Utilisateur.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Medecin.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Serveur.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.h">
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Gestionnaire.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
@@ -47,13 +56,19 @@
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Patient.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Dictionnaire.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Utilisateur.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Medecin.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Serveur.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.cpp">
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gestionnaire.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
