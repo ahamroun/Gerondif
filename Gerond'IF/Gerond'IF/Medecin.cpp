@@ -12,46 +12,23 @@ Medecin::~Medecin()
 {
 }
 
-bool Medecin::AjouterPatient(Patient p)
+void Medecin::AjouterPatient(long id)
 {
-	bool res = false;
-	if (!&p) {
-		patients.push_back(p);
-		res = true;
-	}
-	return res;
+	patients.push_back(id);
 }
 
-bool Medecin::SupprimerPatient(Patient p)
-{
-	bool res = false;
+void Medecin::SupprimerPatient(long id) {
 	int i = 0;
-	for (Patient patient: patients) {
-		if (patient.getId() == p.getId()) {
+	for(long index : patients) {
+		if(index == id) {
 			patients.erase(patients.begin() + i);
-			res = true;
 			break;
 		}
 		i++;
 	}
-	return res;
 }
 
-bool Medecin::ModifierPatient(Patient p)
-{
-	bool res = false;
-	for (unsigned int i = 0; i < patients.size(); i++) {
-		Patient patient = patients.at(i);
-		if (patient.getId() == p.getId()) {
-			patients.at(i) = p;
-			res = true;
-			break;
-		}
-	}
-	return res;
-}
-
-vector<Patient> Medecin::getPatients() const
+vector<long> Medecin::getPatients() const
 {
 	return patients;
 }
