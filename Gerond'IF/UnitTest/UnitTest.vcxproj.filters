@@ -26,7 +26,10 @@
     <ClCompile Include="..\..\Gerond%27IF\UnitTest\stdafx.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Gerond%27IF\UnitTest\unittest1.cpp">
+    <ClCompile Include="..\..\Gerond%27IF\UnitTest\unittestMaladie.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="unittestPatient.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>

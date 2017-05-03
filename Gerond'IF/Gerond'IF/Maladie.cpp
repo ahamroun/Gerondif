@@ -30,7 +30,6 @@ void Maladie::chargerGenome(string genes)
 	while (getline(iss, gene, ' ')) {
 		genome.insert(gene);
 	}
-
 }
 
 Maladie::Maladie(string nom, string description)
