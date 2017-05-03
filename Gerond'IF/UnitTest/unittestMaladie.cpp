@@ -1,5 +1,6 @@
+#include "stdafx.h"
 #include "CppUnitTest.h"
-#include "Maladie.h"
+#include "../Gerond'IF/Maladie.h"
 #include <fstream>
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
