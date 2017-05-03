@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "CppUnitTest.h"
-#include "Patient.h"
+#include "../Gerond'IF/Patient.h"
 #include <fstream>
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
@@ -25,7 +25,9 @@ namespace UnitTest
 			Patient p("Turpin", "Laurent", "lt@insa.fr");
 			ifstream file("../Gerond'IF/Test_Genome.txt");
 			if(file) {
-				p.chargerGenome(file);
+				string gen;
+				file >> gen;
+				p.chargerGenome(gen);
 				set<string> genome = p.getGenome();
 				Assert::IsFalse(genome.empty(), L"Genome Vide", LINE_INFO());
 			}
@@ -37,7 +39,9 @@ namespace UnitTest
 			Patient p("Turpin", "Laurent", "lt@insa.fr");
 			ifstream file("../Gerond'IF/Test_Genome.txt");
 			if(file) {
-				p.chargerGenome(file);
+				string gen;
+				file >> gen;
+				p.chargerGenome(gen);
 				set<string> genome = p.getGenome();
 				string test = *(genome.begin());
 				Assert::AreEqual("AAA", test.c_str(), L"Mauvaise Lecture", LINE_INFO());

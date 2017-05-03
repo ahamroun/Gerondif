@@ -1,6 +1,8 @@
+
 #pragma once
 #include <string>
 #include <set>
+#include "Constantes.h"
 using namespace std;
 
 class Maladie
@@ -14,6 +16,8 @@ public:
 	void setDescription(string description);
 
 	void chargerGenome(string genes);
+
+	bool test(set<string> genome) const;
 
 	//Constructeurs et Destructeur
 	Maladie(string nom, string description);

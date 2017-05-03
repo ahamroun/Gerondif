@@ -1,6 +1,8 @@
+#include "stdafx.h"
 #include "Dictionnaire.h"
 
 
+int Dictionnaire::Id_ = 0;
 
 Dictionnaire::Dictionnaire()
 {

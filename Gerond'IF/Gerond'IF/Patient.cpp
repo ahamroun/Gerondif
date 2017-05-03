@@ -1,8 +1,10 @@
+#include "stdafx.h"
 #include "Patient.h"
+#include <sstream>
 
-int Patient::Id_ = 0;
+long Patient::Id_ = 0;
 
-int Patient::getId() const {
+long Patient::getId() const {
     return id;
 }
 
@@ -34,12 +36,12 @@ void Patient::setEmail(string e) {
     email = e;
 }
 
-void Patient::chargerGenome(istream & in) {
-    string motLu;
-    while(in.peek() != EOF) {
-        getline(in, motLu, ' ');
-        genome.insert(motLu);
-    }
+void Patient::chargerGenome(string genes) {
+	istringstream iss(genes);
+	string gene;
+	while(getline(iss, gene, ' ')) {
+		genome.insert(gene);
+	}
 }
 
 

@@ -1,5 +1,7 @@
+#include "stdafx.h"
 #include "Maladie.h"
 #include <sstream>
+#include <algorithm>
 
 int Maladie::Id_ = 0;
 
@@ -27,9 +29,13 @@ void Maladie::chargerGenome(string genes)
 {
 	istringstream iss(genes);
 	string gene;
-	while (getline(iss, gene, ' ')) {
+	while (getline(iss, gene, SEP)) {
 		genome.insert(gene);
 	}
+}
+
+bool Maladie::test(set<string> genome) const {
+	return includes(genome.begin(), genome.end(), this->genome.begin(), this->genome.end());
 }
 
 Maladie::Maladie(string nom, string description)

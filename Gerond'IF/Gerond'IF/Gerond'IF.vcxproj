@@ -30,6 +30,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -83,8 +84,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>Create</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -146,13 +146,13 @@
     <Text Include="..\..\Gerond%27IF\Gerond%27IF\Test_Genome.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Constantes.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Dictionnaire.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Gestionnaire.h" />
-    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePrive.h" />
-    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePublic.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Medecin.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Patient.h" />
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\resource.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\targetver.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Utilisateur.h" />
@@ -161,13 +161,14 @@
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Dictionnaire.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gerond%27IF.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gestionnaire.cpp" />
-    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePrive.cpp" />
-    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\GestionnairePublic.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Medecin.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Patient.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Utilisateur.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gerond%27IF.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
