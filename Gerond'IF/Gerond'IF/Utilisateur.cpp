@@ -40,7 +40,7 @@ string Utilisateur::getMdp() const
 
 int Utilisateur::getStatut() const
 {
-	retur statut;
+	return statut;
 }
 
 void Utilisateur::setNom(string n)

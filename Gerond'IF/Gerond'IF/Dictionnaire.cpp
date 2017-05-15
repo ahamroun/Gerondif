@@ -16,8 +16,7 @@ Dictionnaire::~Dictionnaire()
 
 Maladie Dictionnaire::getMaladie(int nMaladie)
 {
-	Maladie m;
-	m = maladies.at(nMaladie);
+	Maladie m = maladies.at(nMaladie);
 	return m;
 }
 

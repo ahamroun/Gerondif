@@ -21,6 +21,7 @@ public:
 
 	//Constructeurs et Destructeur
 	Maladie(string nom, string description);
+	//TODO : CONSTRUCTEUR DE COPIE !!!!!!
 	virtual ~Maladie();
 
 private:

@@ -22,6 +22,9 @@
     <Filter Include="Reseaux">
       <UniqueIdentifier>{907f0772-76eb-4958-a587-4e8e1d3d74fd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{1a57644a-3004-496d-ad03-0f0e7dca5dae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\Gerond%27IF\Gerond%27IF\ReadMe.txt" />
@@ -69,9 +72,6 @@
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.cpp">
       <Filter>Logique Metier\Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gerond%27IF.cpp">
-      <Filter>Logique Metier\Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Patient.cpp">
       <Filter>Logique Metier\Fichiers sources</Filter>
     </ClCompile>
@@ -95,6 +95,9 @@
     </ClCompile>
     <ClCompile Include="ConnectedSocket.cpp">
       <Filter>Reseaux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gerond%27IF.cpp">
+      <Filter>Main</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
