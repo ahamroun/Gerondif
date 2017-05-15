@@ -38,6 +38,11 @@ string Utilisateur::getMdp() const
 	return mdp;
 }
 
+int Utilisateur::getStatut() const
+{
+	retur statut;
+}
+
 void Utilisateur::setNom(string n)
 {
 	nom = n;
@@ -56,6 +61,10 @@ void Utilisateur::setMail(string m)
 void Utilisateur::setMdp(string mdp)
 {
 	this->mdp = mdp;
+}
+
+void Utilisateur::setStatut(int statut) {
+	this->statut = statut;
 }
 
 Utilisateur::~Utilisateur()
