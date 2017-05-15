@@ -67,6 +67,12 @@
     <ClInclude Include="ConnectedSocket.h">
       <Filter>Reseaux</Filter>
     </ClInclude>
+    <ClInclude Include="ClientSocket.h">
+      <Filter>Reseaux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Reseau.h">
+      <Filter>Reseaux</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.cpp">
@@ -98,6 +104,9 @@
     </ClCompile>
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gerond%27IF.cpp">
       <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSocket.cpp">
+      <Filter>Reseaux</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

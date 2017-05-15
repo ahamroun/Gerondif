@@ -152,10 +152,12 @@
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Maladie.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Medecin.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Patient.h" />
+    <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Reseau.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\resource.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\targetver.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Utilisateur.h" />
+    <ClInclude Include="ClientSocket.h" />
     <ClInclude Include="ConnectedSocket.h" />
     <ClInclude Include="ListenerSocket.h" />
   </ItemGroup>
@@ -168,6 +170,7 @@
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Patient.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Utilisateur.cpp" />
+    <ClCompile Include="ClientSocket.cpp" />
     <ClCompile Include="ConnectedSocket.cpp" />
     <ClCompile Include="ListenerSocket.cpp" />
   </ItemGroup>
