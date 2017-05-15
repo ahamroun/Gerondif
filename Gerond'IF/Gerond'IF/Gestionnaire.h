@@ -7,6 +7,12 @@ public:
 
 	long getIdDico() const;
 
+	bool AjouterMaladie(string nom, string description, string genes);
+
+	bool ModifierMaladie(string genes, int pos);
+
+	bool SupprimerMaladie(int pos);
+
 	virtual ~Gestionnaire();
 
 private:

@@ -21,6 +21,8 @@ public:
 	string getMail() const;
 
 	string getMdp() const;
+	
+	int getStatut() const;
 
 	void setNom(string n);
 
@@ -29,6 +31,8 @@ public:
 	void setMail(string m);
 
 	void setMdp(string mdp);
+
+	void setStatut(int statut);
 
 	virtual ~Utilisateur();
 
