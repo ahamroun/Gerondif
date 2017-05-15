@@ -19,6 +19,9 @@
     <Filter Include="Services Metier">
       <UniqueIdentifier>{5f111146-5b01-4755-b030-45dad1323e51}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Reseaux">
+      <UniqueIdentifier>{907f0772-76eb-4958-a587-4e8e1d3d74fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\Gerond%27IF\Gerond%27IF\ReadMe.txt" />
@@ -55,6 +58,12 @@
       <Filter>Logique Metier\Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Constantes.h" />
+    <ClInclude Include="ListenerSocket.h">
+      <Filter>Reseaux</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectedSocket.h">
+      <Filter>Reseaux</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.cpp">
@@ -80,6 +89,12 @@
     </ClCompile>
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gestionnaire.cpp">
       <Filter>Logique Metier\Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ListenerSocket.cpp">
+      <Filter>Reseaux</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectedSocket.cpp">
+      <Filter>Reseaux</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

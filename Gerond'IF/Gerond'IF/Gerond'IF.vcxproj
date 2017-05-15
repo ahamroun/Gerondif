@@ -156,6 +156,8 @@
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\targetver.h" />
     <ClInclude Include="..\..\Gerond%27IF\Gerond%27IF\Utilisateur.h" />
+    <ClInclude Include="ConnectedSocket.h" />
+    <ClInclude Include="ListenerSocket.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Dictionnaire.cpp" />
@@ -166,6 +168,8 @@
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Patient.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\stdafx.cpp" />
     <ClCompile Include="..\..\Gerond%27IF\Gerond%27IF\Utilisateur.cpp" />
+    <ClCompile Include="ConnectedSocket.cpp" />
+    <ClCompile Include="ListenerSocket.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\..\Gerond%27IF\Gerond%27IF\Gerond%27IF.rc" />
@@ -173,4 +177,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Gerond'IF.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
